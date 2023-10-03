@@ -56,7 +56,7 @@ function Markdown() {
   let onChangeHandler = (e)=>{
     let input = e.target.value;
     let parseJSX = <Marked children={input}/>
-    setParse(parseJSX);
+    setParse(parseJSX)
     
   }
   return (
