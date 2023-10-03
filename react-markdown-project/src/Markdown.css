@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(96, 174, 253);
+}
+
+#editorTitle, #previewTitle {
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: rgb(79, 145, 244);
+}
+
+#editor, #preview {
+    width: 100%;
+    min-height: 200px;
+    background-color: rgb(170, 206, 242);
+}
+
+img {
+    width: 75%;
+}
+
